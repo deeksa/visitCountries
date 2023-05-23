@@ -1,0 +1,41 @@
+.container3 {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #334155;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.horizontal {
+  height: 2px;
+  width: 80vw;
+  color: white;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 50vh;
+  width: 80vw;
+  list-style-type: none;
+}
+.para {
+  color: white;
+}
+.colorVisited {
+  background-color: transparent;
+  color: gray;
+  margin: 10px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 10px;
+}
+.colorVisit {
+  background-color: blue;
+  color: white;
+  margin: 10px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 10px;
+}
